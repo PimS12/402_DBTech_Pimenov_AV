@@ -1,0 +1,20 @@
+{
+    "name": "fastr/cold-hot",
+    "autoload": {
+        "files": [
+            "src/Controller.php",
+            "src/View.php",
+            "src/Model.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "PimS12",
+            "email": "apimenoffs@gmail.com"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.20"
+    },
+    "bin": ["bin/start.php"]
+}
